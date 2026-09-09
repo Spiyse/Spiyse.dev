@@ -5,15 +5,13 @@ function Header() {
     return(
         <header className={styles.header}>
             <nav>
-                <a href="">home</a>
-                <a href="">something</a>
-                <a href="">Hello2</a>
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
                 <div className={styles.logo}>
                     <img src="/GooseWithHat_Regular.png" alt="" />
                 </div>
-                <a href="">home</a>
-                <a href="">something</a>
-                <a href="">Hello2</a>
+                <a href="">NOTES</a>
+                <a href="">PROJECTS</a>
 
             </nav>
         </header>

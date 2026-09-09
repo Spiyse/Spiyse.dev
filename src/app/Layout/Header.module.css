@@ -6,7 +6,6 @@
     z-index: 1020;
     background: transparent;
     box-sizing: border-box;
-
     opacity: 0;
     animation: slideDown 0.6s ease-out 0.9s forwards;
 }
@@ -15,14 +14,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    user-select: none;
     height: 100%;
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    gap: 0.25em;
 }
 
 .logo img {
@@ -32,6 +33,8 @@
     pointer-events: all;
     transition: transform 0.3s, opacity 0.3s;
 }
+
+/*  Animations  */
 
 @keyframes slideDown {
     from {
