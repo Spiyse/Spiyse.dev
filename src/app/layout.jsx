@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import { Fraunces, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import Layout from "./Layout/Layout";
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${ibm.variable} ${fraunces.variable}`}>
       <body>
         <Layout>{children}</Layout>
+        <Analytics />
       </body>
     </html>
   );
